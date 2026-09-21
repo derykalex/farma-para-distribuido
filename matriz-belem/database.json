@@ -1,1 +1,7 @@
-
+{
+  "estoque_central": [
+    { "id": 1, "medicamento": "Paracetamol 500mg", "quantidade": 5000 },
+    { "id": 2, "medicamento": "Ibuprofeno 400mg", "quantidade": 3000 },
+    { "id": 3, "medicamento": "Dipirona", "quantidade": 8500 }
+  ]
+}
