@@ -1,0 +1,25 @@
+{
+  "name": "farma-para-distribuido",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derykalex/farma-para-distribuido.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/derykalex/farma-para-distribuido/issues"
+  },
+  "homepage": "https://github.com/derykalex/farma-para-distribuido#readme",
+  "dependencies": {
+    "axios": "^1.20.0",
+    "express": "^5.2.1"
+  }
+}

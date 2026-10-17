@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Farma Rede - ERP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="login-container" class="card">
+        <h2>Farma Rede - Login</h2>
+        <form id="login-form">
+            <input type="text" id="usuario" placeholder="Usuário (ex: caixa_pgm)" required>
+            <input type="password" id="senha" placeholder="Senha (123)" required>
+            <button type="submit">Entrar</button>
+        </form>
+        <p id="login-erro" class="erro"></p>
+    </div>
 
+    <div id="app-container" class="hidden">
+        <header>
+            <h1 id="titulo-painel">Painel de Controle</h1>
+            <div>
+                <span id="info-usuario"></span>
+                <button onclick="logout()">Sair</button>
+            </div>
+        </header>
+        <main>
+            <section>
+                <h3>Controle de Estoque e Vendas da Filial</h3>
+                <div id="conteudo-painel"></div>
+            </section>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
